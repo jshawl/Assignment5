@@ -61,5 +61,10 @@ class ExerciseViewController: UIViewController {
                 self.exerciseView.hidden = self.exerciseView.alpha == 0.0
         })
     }
+    
+    func add( view: UIView, superView: UIView){
+        view.setTranslatesAutoresizingMaskIntoConstraints(false)
+        superView.addSubview(view)
+    }
 }
 

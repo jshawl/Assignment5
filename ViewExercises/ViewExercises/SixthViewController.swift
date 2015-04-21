@@ -32,7 +32,7 @@ class SixthViewController: ExerciseViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("Cell") as! UITableViewCell!
+        var cell = tableView.dequeueReusableCellWithIdentifier("Cell") as UITableViewCell!
         if cell == nil {
             cell = UITableViewCell(style: .Default, reuseIdentifier: "Cell")
         }
