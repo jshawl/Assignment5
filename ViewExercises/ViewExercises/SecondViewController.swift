@@ -52,10 +52,10 @@ class SecondViewController: ExerciseViewController {
                 item: blueBox,
                 attribute: NSLayoutAttribute.Top,
                 relatedBy: NSLayoutRelation.Equal,
-                toItem: self.exerciseView,
-                attribute: NSLayoutAttribute.Top,
+                toItem: self.navigationBar,
+                attribute: NSLayoutAttribute.Bottom,
                 multiplier: 1.0,
-                constant: 65.0
+                constant: 0.0
             )
         }
         if position.rangeOfString("bottom") != nil {

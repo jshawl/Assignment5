@@ -9,6 +9,7 @@
 import UIKit
 
 class ExerciseViewController: UIViewController {
+    @IBOutlet weak var navigationBar: UINavigationItem!
     let exerciseView = UIView()
     let exerciseDescription = UILabel()
     var toolbar = UIToolbar()
